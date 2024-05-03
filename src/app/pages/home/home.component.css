@@ -1,0 +1,62 @@
+.banner  {
+  background-image: url("../../../assets/img/banner2.jpg");
+  height: 595px;
+  background-position: center top;
+  background-size: cover;
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  }
+
+.content {
+  position: absolute;
+  top: 38%;
+  left: 20%;
+}
+
+.content a {
+  background-color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #2dbb40;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.content a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.stepBox {
+  background-color: #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.stepBox h1 {
+  font-size: 50px;
+  font-weight: bold;
+color: var(--primary-color);
+
+}
+
+.stepBox p {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
