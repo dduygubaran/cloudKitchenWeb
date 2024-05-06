@@ -1,1 +1,13 @@
-<p>menu works!</p>
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let food of displayFood">
+      <div class="foodBox">
+        <img class="mt-5" src="{{food.strCategoryThumb}}" width="100%" alt="">
+        <h4 class="text-center mt-3">{{food.strCategory}}</h4>
+        <p style="overflow-y:hidden; height: 85px;"> {{food.strCategoryDescription}}</p>
+        <p>  {{food.idCategory | currency: 'USD' }}</p>
+        <a class="buyBtn" href=""> Order Now <i class="bi bi-bag-fill"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

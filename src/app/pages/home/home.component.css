@@ -58,5 +58,41 @@ color: var(--primary-color);
   text-decoration: underline;
 }
 
+.firstGlance {
+  padding: 10px 0px;
+  text-align: center;
+  /* background-color: yellow; */
+}
+
+.firstGlance h3 {
+  font-style: italic;
+  color: #2dbb40;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.firstGlance img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.highlight2 {
+  color: #2dbb40;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.step a {
+  padding: 12px 15px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 
 
