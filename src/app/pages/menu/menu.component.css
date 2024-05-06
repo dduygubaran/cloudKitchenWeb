@@ -1,0 +1,21 @@
+.foodBox p {
+  font-size: 12px;
+}
+
+.foodBox h4 {
+  color: #2dbb40;
+}
+
+.buyBtn {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buyBtn:hover {
+  background-color: var(--primary-color);
+}
+
