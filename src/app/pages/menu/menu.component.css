@@ -4,6 +4,9 @@
 
 .foodBox h4 {
   color: #2dbb40;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
 }
 
 .buyBtn {

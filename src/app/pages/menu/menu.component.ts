@@ -16,11 +16,10 @@ export class MenuComponent implements OnInit {
     this.foodSelection();
   }
 
-
   foodSelection() {
     this.service.foodService().subscribe((data) => {
       console.log(data);
-      this.displayFood = data. categories;
+      this.displayFood = data.categories;
     })
   }
 
