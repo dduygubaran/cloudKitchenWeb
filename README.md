@@ -1,26 +1,11 @@
+![Screenshot from 2024-05-07 13-28-49](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/eca2c9a4-293a-41c9-a41a-79b43623caa8)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+![Screenshot from 2024-05-07 13-29-04](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/42ecc52f-fae4-4221-b5e1-68a98533aa48)
 
-## Development server
+![Screenshot from 2024-05-07 13-29-27](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/632fb958-9859-4609-b60c-090a3086d98d)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Screenshot from 2024-05-07 13-30-21](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/ea42c122-c287-405b-984b-b0559189a9a5)
 
-## Code scaffolding
+![Screenshot from 2024-05-07 13-30-34](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/ab2852b5-6f95-4571-a650-79ba9a4193d4)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Screenshot from 2024-05-07 13-31-05](https://github.com/dduygubaran/cloudKitchenWeb/assets/83429611/7104ca0c-b251-46b3-a851-de50ee50fb12)
