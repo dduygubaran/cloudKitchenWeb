@@ -11,33 +11,40 @@ import { OrderDetailsService } from 'src/app/services/order-details.service';
 export class MenuPageComponent implements OnInit {
 
 
-  selectedData = "";
+  selectedDataImg = "";
+  selectedDataHeader = "";
+  selectedDataDesc = "";
 
   constructor(
     private param: ActivatedRoute,
-    private service: OrderDetailsService) {}
+    private service: OrderDetailsService
+  ) {}
 
   getMenuId: any;
   menuData: any;
+
 
   allData: [] = [];
 
   async ngOnInit() {
     await this.service.foodService().toPromise().then((data) => {
-      console.log(data);
       this.allData =  data.categories;
-      console.log(data.categories);
+     console.log(data.categories);
 
     })
 
     this.getMenuId = this.param.snapshot.paramMap.get('id');
-    console.log(this.getMenuId, 'getmenu');
+    //console.log(this.getMenuId, 'getmenu');
 
       if(this.getMenuId) {
           this.allData.filter( (item: any) => {
-            console.log(item)
+            //console.log(item)
             if(item.idCategory == this.getMenuId){
-              this.selectedData = item.strCategoryDescription;
+
+              this.selectedDataImg = item.strCategoryThumb;
+              this.selectedDataHeader = item.strCategory
+              this.selectedDataDesc = item.strCategoryDescription;
+              console.log(this.selectedDataHeader)
             }
           });
         }

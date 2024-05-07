@@ -1,1 +1,21 @@
-<p>{{selectedData}}</p>
+<!-- <p>{{selectedData}}</p> -->
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class=" col-lg-6 selectedData">
+      <a routerLink="/menu" class="btn btn-dark">Back</a>
+      <img src="{{selectedDataImg}}" alt="">
+      <h4 class="mt-3">{{selectedDataHeader}}</h4>
+      <p> {{selectedDataDesc}}</p>
+    </div>
+
+    <div class="col-lg-6">
+      <h2> Enter Your Details </h2>
+      <form>
+        <input type="text" class="form-control mb-3" placeholder="Enter Your Full Name">
+        <input type="text" class="form-control mb-3" placeholder="Enter Your Phone Number">
+        <textarea class="form-control mb-3" placeholder="Enter Your Address"></textarea>
+        <button class="btn btn-md btn-dark"> Place Order</button>
+      </form>
+    </div>
+  </div>
+</div>

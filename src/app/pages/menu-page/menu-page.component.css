@@ -1,0 +1,21 @@
+.selectedData{
+  text-align: center;
+}
+
+.selectedData img {
+  width: 70%;
+}
+
+.selectedData a {
+  margin-bottom: 250px;
+  margin-left: -100px;
+}
+
+form {
+  width: 50%;
+  margin-top: 10%;
+}
+
+form button {
+  padding: 10px 10px;
+}
