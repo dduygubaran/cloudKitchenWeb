@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HttpClientModule } from  '@angular/common/http';
 import { OrderDetailsService } from './services/order-details.service';
+import { MenuPageComponent } from './pages/menu-page/menu-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OrderDetailsService } from './services/order-details.service';
     HomeComponent,
     MenuComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    MenuPageComponent
   ],
   imports: [
     BrowserModule,
